@@ -1,0 +1,80 @@
+body{
+display: block;
+text-align: center;
+margin: 0;
+}
+.background-section{
+        background: linear-gradient(300deg, #00bfff, #90CAF9,#44A5F5);
+        background-size: 180% 180%;
+        animation: gradient-animation 18s ease infinite;
+      
+}
+.top-container {
+    position: relative;
+    padding-top: 100px;
+}
+
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 80px;
+}
+
+h1{
+    margin-top:130px ;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style:normal;
+    color:#44A5F5 ;
+}
+#co{
+    color:white;
+}
+#ali{
+    color: #90CAF9;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.underline{
+    text-decoration:line-through;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    top: 320px;
+}
+.img1{
+    margin-top: 150px;
+    height: 200px;
+}
+.profile{
+    height: 150px;
+    position: relative;
+    top:100px;
+}
+#col{
+    color:#0a0a0a;
+    font-weight: 750;
+}
+    .lol{
+    color: #90CAF9;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+.lol1{
+    color: #44A5F5;
+    font-family: "Montserrat", sans-serif;
+}
+.carousel {
+    max-width: 1000px; /* Adjust the maximum width as needed */
+    margin: auto; /* Center the carousel horizontally */
+}
+.carousel-item img {
+    max-width: 100%; /* Ensure images within carousel items fit within their container */
+    height: auto; /* Maintain aspect ratio */
+}
